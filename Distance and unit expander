@@ -1,0 +1,14 @@
+#include <stdio.h>
+2	int main() {
+3	  int time;
+4	  int speed;
+5	  printf("enter time in hours and speed in kilometers");
+6	  scanf("%d %d",&time,&speed);
+7	  int distance=speed*time;
+8	  int meters=distance*1000;
+9	  int centimeters=distance*100000;
+10	  int millimeters=distance*1000000;
+11	  printf("%d",distance);
+12	  
+13	  return 0;
+14	}
